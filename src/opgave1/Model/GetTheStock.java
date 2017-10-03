@@ -1,4 +1,4 @@
-package opgave1;
+package opgave1.Model;
 
 import java.text.DecimalFormat;
 
@@ -6,7 +6,7 @@ public class GetTheStock implements Runnable {
 	private Stock stockType;
 	private double stockPrice;
 	private StockGrabber stockGrabber;
-	
+
 	public GetTheStock(Stock stockType, double stockPrice, StockGrabber stockGrabber) {
 		this.stockType = stockType;
 		this.stockPrice = stockPrice;

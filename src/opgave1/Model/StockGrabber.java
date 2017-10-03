@@ -1,4 +1,4 @@
-package opgave1;
+package opgave1.Model;
 import java.util.ArrayList;
 import java.util.HashMap;
 
