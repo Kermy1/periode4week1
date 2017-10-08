@@ -1,5 +1,5 @@
 // this is just a demo to show the workings of Platform.runLater()
-
+package opgave1.View;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Group;
