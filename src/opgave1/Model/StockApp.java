@@ -8,7 +8,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import opgave1.Controller.SceneButtonHandler;
 import opgave1.View.GraphView;
-import opgave1.View.MyChart;
 import opgave1.View.TextView;
 import opgave1.View.View;
 
@@ -16,7 +15,6 @@ import opgave1.View.View;
 public class StockApp extends Application{
     public static void main(String[] args){
 		launch(args);
-		//Application.launch(MyChart.class, args);
     }
 
 	@Override
