@@ -21,7 +21,7 @@ public class GraphView extends StackPane implements View{
 		// defining the x&y axis
         NumberAxis xAxis = new NumberAxis(0, 100, 1);
         xAxis.setLabel("Time");
-        NumberAxis yAxis = new NumberAxis(49, 51, 0.1);
+        NumberAxis yAxis = new NumberAxis(49.5, 50.5, 0.1);
         yAxis.setLabel("Price");
 
         // creating the line chart
